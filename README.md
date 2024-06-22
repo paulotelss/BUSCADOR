@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+## Aplicação em React Node.js 
+**Buscador de CEPs Brasileiros**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Meu projeto consiste em uma aplicação totalmente desenvolvida em React, na qual é possível buscar CEPs de diversos estados brasileiros utilizando uma API.
 
-## Available Scripts
+```javascript
+https://viacep.com.br/ws/  link da API utilizada
+```
 
-In the project directory, you can run:
 
-### `npm start`
+Essa API consulta um banco de dados interno ou uma fonte de dados externa que contém informações de todos os CEPs válidos. Quando você faz uma solicitação de busca de CEP para a API, ela verifica esses dados e retorna as informações correspondentes ao CEP solicitado. Apesar da simplicidade, meu projeto funciona muito bem e é excelente opção para quem está começando a criar seus próprios projetos em React. A biblioteca oferece uma variedade de funcionalidades e é altamente versátil para codificação.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Como iniciar esse projeto
+**Instalação do Node**
+- Baixe o Node.js: Vá para o site oficial do Node.js em nodejs.org e baixe a versão recomendada para seu sistema operacional.
+- Instale o Node.js: Após o download, execute o instalador e siga as instruções na tela para instalar o Node.js.
+- Verifique a instalação: Após a instalação, abra seu terminal (Git Bash, PowerShell, Terminal, etc.) e digite o seguinte comando para verificar se o Node.js está instalado corretamente:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```javascript
+node -v
+npm -v
 
-### `npm test`
+```
+Isso deve mostrar as versões do Node.js e do npm instaladas no seu sistema.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Comandos para instalar os pacotes necessários
+Assumindo que você já tenha um projeto React criado (ou que vá criar um novo), aqui estão os comandos básicos para instalar os pacotes necessários:
+- Inicialize um projeto React: Se você não tem um projeto React, crie um utilizando o Create React App:
+```javascript
+npx create-react-app nome-do-seu-projeto
+cd nome-do-seu-projeto
+```
+- Acesse o diretório do seu projeto: Certifique-se de estar dentro do diretório do seu projeto no terminal:
+```javascript
+cd caminho/para/seu/projeto
+````
+- Instale os pacotes necessários: Execute o comando npm para instalar os pacotes que seu projeto necessita:
 
-### `npm run build`
+```javascript
+npm install nome-do-pacote
+````
+- Inicie seu projeto React: Após instalar os pacotes, você pode iniciar seu projeto React localmente para desenvolvimento:
+```javscript
+npm start
+````
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esses são os passos básicos para configurar o ambiente de desenvolvimento Node.js e React. Se precisar de mais detalhes ou instruções específicas, comente aqui!
