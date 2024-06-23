@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(#121212, #b355f9);
+    background: linear-gradient( #d4bda5, #f1e05a);
 }
 
 .title {
@@ -63,7 +63,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #3b353583;
+    background-color: #2a2727e1;
     width: 500px;
     border-radius: 8px;
 }
@@ -96,7 +96,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #3333339e;
     color: #fff;
     padding: 15px;
     text-align: center;
