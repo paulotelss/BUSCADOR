@@ -44,4 +44,13 @@ npm install nome-do-pacote
 npm start
 ````
 
-Esses são os passos básicos para configurar o ambiente de desenvolvimento Node.js e React. Se precisar de mais detalhes ou instruções específicas, comente aqui!
+Esses são os passos básicos para configurar o ambiente de desenvolvimento Node.js e React. 
+
+![Captura de tela 2024-09-26 095209](https://github.com/user-attachments/assets/7aba36c4-f6c9-430c-9d62-1687712cdd91)
+
+## Exemplo de CEP
+
+- CEP válido: 22290-130 (Ladeira do Leme - RJ)
+
+![Captura de tela 2024-09-26 095345](https://github.com/user-attachments/assets/f913a03f-c6e4-420a-b417-63f0a1b3e4ee)
+
