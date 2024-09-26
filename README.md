@@ -54,3 +54,4 @@ Esses são os passos básicos para configurar o ambiente de desenvolvimento Node
 
 ![Captura de tela 2024-09-26 095345](https://github.com/user-attachments/assets/f913a03f-c6e4-420a-b417-63f0a1b3e4ee)
 
+:heart:
